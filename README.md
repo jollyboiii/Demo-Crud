@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Employee Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+This GitHub repository contains the source code for an Employee Management System, a web-based application built using React. The Employee Management System allows users to efficiently manage employee records, perform CRUD (Create, Read, Update, Delete) operations on employee data, and maintain a structured and organized record of employees within an organization.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+- **User Authentication:**
+  - Secure user authentication using email and password.
+  
+- **Dashboard:**
+  - Overview of employee records.
+  - Add, edit, and delete employee data.
+  
+- **Add Employee:**
+  - Collects essential information such as first name, last name, email, salary, and date of hire.
+  - Data validation ensures all required fields are filled out.
+  
+- **Edit Employee:**
+  - Edit existing employee records.
+  - Pre-fills fields with current data for easy updates.
+  
+- **Delete Employee:**
+  - Delete employee records with confirmation.
+  
+- **Logout:**
+  - Securely log out of user accounts.
+  
+- **Responsive Design:**
+  - Application adapts to various screen sizes, including desktop and mobile devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** Building interactive and dynamic user interfaces.
+- **Sweetalert2:** Displaying attractive and user-friendly alert messages.
 
-### `npm test`
+## Data Storage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Employee data is stored locally using browser local storage, ensuring data persistence between sessions.
 
-### `npm run build`
+## Data Sample
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A sample dataset of employees is provided within the code to demonstrate application functionality. The dataset includes information such as first name, last name, email, salary, and hire date.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone this repository and run the application on your local machine. The provided sample data can be used for testing and demonstration purposes.
 
-### `npm run eject`
+## Testing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Unit tests are included to ensure the stability and reliability of the application. Tests cover basic functionality, such as rendering components without errors.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributors
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Srijan Khairgoli Shrestha
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Acknowledgments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Rohan Raj Shrestha
